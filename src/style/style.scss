@@ -1,0 +1,13 @@
+@import './pantone.scss';
+@import './typography.scss';
+@import './container.scss';
+@import './variables.scss';
+
+body {
+  background-color: $background;
+  color: $text;
+  font-family: 'quattrocento', serif;
+  font-size: 1.2em;
+
+  --text-color: #4C4024
+}

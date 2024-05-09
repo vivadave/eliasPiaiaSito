@@ -1,0 +1,94 @@
+
+@font-face {
+  font-family: 'leJour';
+  src: url('$lib/Le\ Jour\ Script.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'quattrocento';
+  src: url('$lib/Quattrocento-Regular.ttf') format('truetype');
+}
+
+.le-jour {
+  font-family: 'leJour', serif;
+  font-style: normal;
+}
+
+.quattrocento {
+  font-family: 'quattrocento', serif;
+}
+
+$font-size-description: 1.7rem;
+$font-size-description-small: 1.3rem;
+$font-size-description-xsmall: 1.0rem;
+$font-size-title: 6rem;
+$font-size-title-small: 5rem;
+$font-size-title-xsmall: 3rem;
+$font-size-title-xxsmall: 2.2rem;
+
+$border-radius: 3rem;
+
+
+.description {
+  font-size: $font-size-description-small;
+}
+@media (min-width: 1200px){
+  .description {
+    font-size: $font-size-description;
+  }
+}
+
+.smdescription {
+  font-size: $font-size-description-xsmall;
+}
+@media (min-width: 1200px){
+  .smdescription {
+    font-size: $font-size-description-small;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: $font-size-title-xsmall;
+  letter-spacing: 0.2rem;
+  line-height: 3.5rem;
+}
+@media (min-width: 1200px){
+  .title {      
+    font-size: $font-size-title;
+    letter-spacing: 0.5rem;
+    line-height: 90px;
+  }
+}
+
+.smtitle {      
+  font-size: $font-size-title-xxsmall;
+  letter-spacing: 0.3rem;
+  line-height: 3rem;
+}
+@media (min-width: 1200px){
+  .smtitle {      
+    font-size: $font-size-title-xsmall;
+    letter-spacing: 0.35rem;
+    line-height: 70px;
+  }
+}
+
+
+
+.title-hidden {      
+  font-size: 8rem;
+  letter-spacing: 0.4rem;
+  line-height: 80px;
+}
+@media (min-width: 1200px){
+  .title-hidden {      
+    font-size: 13rem;
+    letter-spacing: 0.5rem;
+    line-height: 90px;
+  }
+}
+
+
+
+
