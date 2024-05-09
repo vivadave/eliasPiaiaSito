@@ -1,25 +1,42 @@
 {
-  "name": "solid-quickstart",
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
-  },
-  "type": "module",
-  "devDependencies": {
-    "cypress": "^10.11.0",
-    "solid-start-netlify": "^0.1.0",
-    "typescript": "^4.8.3",
-    "vite": "^3.1.0"
-  },
-  "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.5.0",
-    "solid-js": "^1.5.7",
-    "solid-start": "^0.1.0",
-    "undici": "^5.10.0"
-  },
-  "engines": {
-    "node": ">=16"
-  }
+	"name": "sitoeli",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-netlify": "^4.2.0",
+		"@sveltejs/adapter-static": "^3.0.1",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^8.56.0",
+		"@typescript-eslint/eslint-plugin": "^7.0.0",
+		"@typescript-eslint/parser": "^7.0.0",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^8.56.0",
+		"eslint-plugin-svelte": "^2.35.1",
+		"postcss": "^8.4.38",
+		"sass": "^1.72.0",
+		"svelte-check": "^3.6.0",
+		"tailwindcss": "^3.4.1",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@beyonk/svelte-googlemaps": "^3.2.0",
+		"@fortawesome/fontawesome-free": "^6.5.2",
+		"@tinymce/tinymce-svelte": "^2.0.2",
+		"firebase": "^10.9.0",
+		"google-maps": "^4.3.3",
+		"svelte-media-queries": "^1.6.2"
+	}
 }
