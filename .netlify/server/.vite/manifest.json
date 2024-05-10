@@ -1,0 +1,260 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_Button.js": {
+    "file": "chunks/Button.js",
+    "name": "Button",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Button.BkxGHTJc.css"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_translation.js": {
+    "file": "chunks/translation.js",
+    "name": "translation",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "_app/immutable/assets/fa-brands-400.DHHcbFjz.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "_app/immutable/assets/fa-brands-400.Ch568Ea9.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "_app/immutable/assets/fa-regular-400.C54-fRIQ.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "_app/immutable/assets/fa-regular-400.9VThgXHM.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "_app/immutable/assets/fa-solid-900.Cm9M9sZB.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "_app/immutable/assets/fa-solid-900.QWY35r5r.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "_app/immutable/assets/fa-v4compatibility.DLBX5pNp.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "_app/immutable/assets/fa-v4compatibility.BRdYr4HJ.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/lib/Le Jour Script.ttf": {
+    "file": "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+    "src": "src/lib/Le Jour Script.ttf"
+  },
+  "src/lib/Quattrocento-Regular.ttf": {
+    "file": "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf",
+    "src": "src/lib/Quattrocento-Regular.ttf"
+  },
+  "src/lib/images/donnaCrisi.jpg": {
+    "file": "_app/immutable/assets/donnaCrisi.CRPbMr76.jpg",
+    "src": "src/lib/images/donnaCrisi.jpg"
+  },
+  "src/lib/images/elisa.jpg": {
+    "file": "_app/immutable/assets/elisa.dXXTYmSS.jpg",
+    "src": "src/lib/images/elisa.jpg"
+  },
+  "src/lib/images/piediBambino.jpg": {
+    "file": "_app/immutable/assets/piediBambino.CXKZvLDX.jpg",
+    "src": "src/lib/images/piediBambino.jpg"
+  },
+  "src/routes/+layout.server.ts": {
+    "file": "entries/pages/_layout.server.ts.js",
+    "name": "entries/pages/_layout.server.ts",
+    "src": "src/routes/+layout.server.ts",
+    "isEntry": true,
+    "css": [
+      "_app/immutable/assets/_layout.server.IJW97y_L.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fa-brands-400.Ch568Ea9.woff2",
+      "_app/immutable/assets/fa-brands-400.DHHcbFjz.ttf",
+      "_app/immutable/assets/fa-regular-400.9VThgXHM.woff2",
+      "_app/immutable/assets/fa-regular-400.C54-fRIQ.ttf",
+      "_app/immutable/assets/fa-solid-900.QWY35r5r.woff2",
+      "_app/immutable/assets/fa-solid-900.Cm9M9sZB.ttf",
+      "_app/immutable/assets/fa-v4compatibility.BRdYr4HJ.woff2",
+      "_app/immutable/assets/fa-v4compatibility.DLBX5pNp.ttf"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_translation.js",
+      "_index.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Bz_Pstia.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+      "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf"
+    ]
+  },
+  "src/routes/+page.server.ts": {
+    "file": "entries/pages/_page.server.ts.js",
+    "name": "entries/pages/_page.server.ts",
+    "src": "src/routes/+page.server.ts",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Button.js",
+      "_translation.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.CdGmx23Q.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/donnaCrisi.CRPbMr76.jpg",
+      "_app/immutable/assets/piediBambino.CXKZvLDX.jpg",
+      "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+      "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf"
+    ]
+  },
+  "src/routes/cms/+page.svelte": {
+    "file": "entries/pages/cms/_page.svelte.js",
+    "name": "entries/pages/cms/_page.svelte",
+    "src": "src/routes/cms/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Button.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DyXxoGlf.css"
+    ]
+  },
+  "src/routes/elisa/+page.svelte": {
+    "file": "entries/pages/elisa/_page.svelte.js",
+    "name": "entries/pages/elisa/_page.svelte",
+    "src": "src/routes/elisa/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_translation.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D3qFZejO.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/elisa.dXXTYmSS.jpg",
+      "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+      "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf"
+    ]
+  },
+  "src/routes/emozionale/+page.svelte": {
+    "file": "entries/pages/emozionale/_page.svelte.js",
+    "name": "entries/pages/emozionale/_page.svelte",
+    "src": "src/routes/emozionale/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_translation.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B4DLekma.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+      "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf"
+    ]
+  },
+  "src/routes/osteopatia/+page.svelte": {
+    "file": "entries/pages/osteopatia/_page.svelte.js",
+    "name": "entries/pages/osteopatia/_page.svelte",
+    "src": "src/routes/osteopatia/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_translation.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.B4DLekma.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Le Jour Script.7lKJUGf3.ttf",
+      "_app/immutable/assets/Quattrocento-Regular.Bnj6A5eN.ttf"
+    ]
+  }
+}

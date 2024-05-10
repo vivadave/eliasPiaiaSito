@@ -2,7 +2,6 @@
 	const dispatch = createEventDispatcher();
   import { onMount } from 'svelte';
 	import { createEventDispatcher } from 'svelte';
-	//import mapStyles from './map-styles'; // optional
 
 	export let globally = false;
 	export let key = '';

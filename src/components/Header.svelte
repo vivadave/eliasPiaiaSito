@@ -1,9 +1,9 @@
 <script lang="ts">
   import Logo from './Logo.svelte';
   import Menu from './Menu.svelte';
-    import { goto } from '$app/navigation';
+  import { goto } from '$app/navigation';
 
-  export let translations: unknown[];
+  export let translations;
   export let small = false;
 </script>
 
@@ -25,12 +25,12 @@
       height: 70px;
     }
 
-   @media (min-width: 1200px){
-    height: 120px;
-    &.small {
-      height: 80px;
-    }    
-   } 
+    @media (min-width: 1200px){
+      height: 120px;
+      &.small {
+        height: 80px;
+      }    
+    } 
     .header-inner { 
       height: 100%;
       width: 100%;
