@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
-    import Button from './Button.svelte';
 
   export let open = false;
   export let title = 'Accordion';

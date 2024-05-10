@@ -1,6 +1,6 @@
 <script lang='ts'>
   import Editor from '@tinymce/tinymce-svelte';
-  import Accordion from '../../components/accordion.svelte';
+  import Accordion from '../../components/Accordion.svelte';
   import Button from '../../components/Button.svelte';
   import Radio from '../../components/Radio.svelte';
   import { updateDocument } from '../../helper/firebase'
