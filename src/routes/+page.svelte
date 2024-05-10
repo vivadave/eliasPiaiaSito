@@ -15,5 +15,5 @@
 <Osteopatia translations={data.translations}/>
 <Emozionale translations={data.translations} />
 <Contatti translations={data.translations} />
-<Map />
+<Map key={data.mapsApiKey}/>
 

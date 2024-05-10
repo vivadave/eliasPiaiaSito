@@ -19,7 +19,6 @@
     } else {
       languageStore.set('it');
     }
-    console.log('browserLanguage', browserLanguage);
   });
 
   $: glassHeader = scrollY > 100

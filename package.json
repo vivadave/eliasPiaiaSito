@@ -35,8 +35,14 @@
 		"@beyonk/svelte-googlemaps": "^3.2.0",
 		"@fortawesome/fontawesome-free": "^6.5.2",
 		"@tinymce/tinymce-svelte": "^2.0.2",
+		"dotenv": "^16.4.5",
 		"firebase": "^10.9.0",
 		"google-maps": "^4.3.3",
 		"svelte-media-queries": "^1.6.2"
+	},
+	"exports": {
+		".": {
+			"svelte": "./dist/index.js"
+		}
 	}
 }

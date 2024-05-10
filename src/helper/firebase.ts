@@ -8,7 +8,7 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAwtrn3zdX-NtLLkAYDXFmwfNOu51j9VNs",
+  apiKey: "",
   authDomain: "sito-elisa-b24a8.firebaseapp.com",
   projectId: "sito-elisa-b24a8",
   storageBucket: "sito-elisa-b24a8.appspot.com",
@@ -17,7 +17,8 @@ const firebaseConfig = {
   measurementId: "G-3CMQ7CTCGH"
 };
 
-const initializeFirebase = () => {
+const initializeFirebase = (apiKey: string) => {
+  firebaseConfig.apiKey = apiKey;
   initializeApp(firebaseConfig);
 }
 
@@ -27,7 +28,6 @@ const getCollection = async (collectionName: 'translation') => {
   const collect = collection(db, collectionName);
   const collectionList = await getDocs(collect);
   const collectionData = collectionList.docs.map((doc) => doc.data());
-  console.log('Collection data: ', collectionName, collectionData);
   return collectionData;
 }
 
@@ -36,7 +36,6 @@ const updateDocument = async (collectionName: 'translation', docId: string, data
   const db = getFirestore();
   const collect = collection(db, collectionName);
   const res = await setDoc(doc(collect, docId), data);
-  console.log('Document updated with ID: ', collectionName, docId, res);
 }
 
 export { initializeFirebase, getCollection, updateDocument }
